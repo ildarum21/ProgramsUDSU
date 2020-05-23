@@ -218,7 +218,7 @@ procedure deleteaNodeWithoutaSubtree(Top: NodePtr);
               if Key in ['y','Y','н','Н'] then
                 begin
                      ClrScr;
-                     Leaf^.Name:= Nil;
+                     Leaf:=Nil;
                     writeln('узел', Leaf^.Name,'удален');
                 end
              else
